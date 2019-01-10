@@ -1,0 +1,68 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/login.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/index.css"/>
+</head>
+
+<body>
+    <div class='contents'>
+    <header>
+        <nav>
+            <div class="navigation__wrapper">
+                <div class='container'>
+                <div><a href="index.html" id="header-title">Book-List</a></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <section id="login-area">
+        <div class="container">
+            <div class="notification-div" id="notification-div">
+                <div id="close-notification">
+                    <span>x</span>
+                </div>
+                    <h5></h5>
+                    <p></p>
+        </div>
+
+        
+        <form class="login-form" action='/UI/addBook.html' method='GET'>
+
+            <div class="login-box">
+
+                
+            <div class="form__navigation">
+                <div class='form-link'><a href="signup.html">Sign Up</a></div>
+                <div class='form-link'><a href="login.html">Log In</a></div>
+            </div>
+            
+
+            <div class="login-div">
+                <input type="email" placeholder="Email" id="email" name="email">
+            </div>
+            <div class="login-div">
+                <input type="password" placeholder="Password" id="password" name="password">
+            </div>
+            <div class="btn-div">
+                <button id="login-btn">Log In</button>
+            </div>
+           
+            </div>
+        </form>
+        </div>
+    </section>
+
+    </div>
+
+
+<script src="./scripts/login.js"></script>
+</body>
+</html>
