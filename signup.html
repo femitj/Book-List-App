@@ -1,0 +1,83 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sign-Up Page </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/signup.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/index.css"/>
+</head>
+
+<body>
+    <div class='content'>
+    <div class='content-body'>
+    <header>
+        <nav>
+            <div class="navigation__wrapper">
+                <div class='container'>
+                <div><a href="index.html" id="header-title">Book-List</a></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <section id="login-area">
+        <div class="container">
+            <div class="notification-div" id="notification-div">
+                <div id="close-notification">
+                    <span>x</span>
+                </div>
+                    <h5></h5>
+                    <p></p>
+        </div>
+
+        
+        <form class="login-form" action='/UI/index.html' method='POST'>
+
+            <div class="login-box">
+
+                
+            <div class="form__navigation">
+                <div class='form-link'><a href="signup.html">Sign Up</a></div>
+                <div class='form-link'><a href="login.html">Log In</a></div>
+            </div>
+            
+
+            <div class="login-div">
+                <label for="name">LAST NAME</label>
+                <input type="text" name="name" id="last-name" placeholder="Enter your full name">
+            </div>
+            <div class="login-div">
+                <label for="name">FIRST NAME</label>
+                <input type="text" name="name" id="first-name" placeholder="Enter your full name">
+            </div>
+            <div class="login-div">
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email address">
+            </div>
+            <div class="login-div">
+                <label for="password">PASSWORD</label>
+                <input type="password" name="passowrd" id="password" placeholder="******">
+            </div>
+            <div class="login-div">
+                <label for="confirm password">CONFIRM PASSWORD</label>
+                <input type="password" name="confirm password" id="confirm-password" placeholder="******">
+            </div>
+
+            <div class="btn-div">
+                <button id="signup-btn">Sign Up</button>
+            </div>
+           
+            </div>
+        </form>
+        </div>
+    </section>
+    </div>
+    </div>
+
+<script src="./scripts/signup.js"></script>
+</body>
+</html>
